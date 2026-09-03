@@ -6,9 +6,9 @@
 This project analyzes sales, customer, and product data for an online coffee retailer operating across several Indian cities, with the goal of identifying where demand and revenue are strongest. Using SQL, I worked through city-level population, rent, and sales figures to answer 10 business questions — covering estimated coffee consumers, revenue and product trends, customer segmentation, and month-over-month growth — to recommend the three cities best positioned for new physical store openings.
 
 ## Data Validation
-Before analysis, verified row counts against source files, checked for nulls in 
-key columns, confirmed no non-positive prices/totals, and validated the sale date 
-range — all checks passed. See `DATA_VALIDATION.SQL`.
+Before analysis, verified row counts against source files, checked for nulls in key columns, 
+confirmed no non-positive prices/totals, and validated the sale date range — 
+all checks passed. See [DATA_VALIDATION.SQL](DATA_VALIDATION.SQL).
 
 ## Key Questions
 1. **Coffee Consumers Count**  
