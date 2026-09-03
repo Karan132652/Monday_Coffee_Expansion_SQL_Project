@@ -60,4 +60,6 @@ After analyzing the data, the recommended top three cities for new store opening
 2. Average rent per customer is very low at 156.  
 3. Average sales per customer is better at 11.6k.
 
----
+**Note :** Bangalore ranks 3rd by revenue but is excluded from the top-3 pick -
+its rent per customer (₹761.54) is 5x Jaipur's and over 2x Delhi's, 
+making it a less cost-efficient location despite higher sales.
