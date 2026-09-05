@@ -5,6 +5,11 @@
 ## Objective
 This project analyzes sales, customer, and product data for an online coffee retailer operating across several Indian cities, with the goal of identifying where demand and revenue are strongest. Using SQL, I worked through city-level population, rent, and sales figures to answer 10 business questions — covering estimated coffee consumers, revenue and product trends, customer segmentation, and month-over-month growth — to recommend the three cities best positioned for new physical store openings.
 
+## Data Model
+![ERD](https://github.com/Karan132652/Monday_Coffee_Expansion_SQL_Project/blob/main/3.png)
+
+Four tables — `city`, `customers`, `products`, `sales` — linked by foreign keys, matching the schema in [SCHEMAS.SQL](SCHEMAS.SQL).
+
 ## Data Validation
 Before analysis, verified row counts against source files, checked for nulls in key columns, 
 confirmed no non-positive prices/totals, and validated the sale date range — 
@@ -41,6 +46,19 @@ all checks passed. See [DATA_VALIDATION.SQL](DATA_VALIDATION.SQL).
 10. **Market Potential Analysis**  
     Identify top 3 city based on highest sales, return city name, total sale, total rent, total customers, estimated  coffee consumer
     
+## Key Insights
+Query output ranking all 14 cities by revenue, rent efficiency, and customer base — the data behind the recommendation below:
+
+![Query Output](https://github.com/Karan132652/Monday_Coffee_Expansion_SQL_Project/blob/main/7.png)
+
+**Total revenue by city** — Pune leads by a clear margin:
+![Total Revenue by City](https://github.com/Karan132652/Monday_Coffee_Expansion_SQL_Project/blob/main/8.png)
+
+**Average rent per customer by city** — Mumbai and Hyderabad ruled out despite strong markets:
+![Average Rent per Customer by City](https://github.com/Karan132652/Monday_Coffee_Expansion_SQL_Project/blob/main/9.png)
+
+**Total customers by city** — Jaipur and Delhi lead:
+![Total Customers by City](https://github.com/Karan132652/Monday_Coffee_Expansion_SQL_Project/blob/main/10.png)
 
 ## Recommendations
 After analyzing the data, the recommended top three cities for new store openings are:
